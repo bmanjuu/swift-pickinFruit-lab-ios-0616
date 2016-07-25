@@ -58,7 +58,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="spinButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EaZ-jP-00o"/>
+                                    <action selector="spinButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ufK-0q-vpI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -87,7 +87,7 @@
                     <connections>
                         <outlet property="fruitPicker" destination="Hqg-RL-roi" id="Hbo-W0-yi7"/>
                         <outlet property="resultLabel" destination="z9t-CE-N2h" id="jR8-KO-Jss"/>
-                        <outlet property="spinButton" destination="OrZ-qi-3Ge" id="j09-Jd-I6p"/>
+                        <outlet property="spinButton" destination="OrZ-qi-3Ge" id="rhq-QT-pBI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

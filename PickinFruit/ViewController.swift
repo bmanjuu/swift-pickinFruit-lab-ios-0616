@@ -36,13 +36,25 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        let title = fruitPicker.selectedRowInComponent(component).description
+        let title = fruitsArray[row]
         return title
     }
     
+    
     @IBAction func spinButtonTapped(sender: UIButton) {
         
+        for column in 0...2 {
+            fruitPicker.selectRow(Int(arc4random_uniform(9)), inComponent: column, animated: true)
+        }
         
+        if fruitPicker.selectedRowInComponent(0) == fruitPicker.selectedRowInComponent(1) && fruitPicker.selectedRowInComponent(1) == fruitPicker.selectedRowInComponent(2) {
+            self.resultLabel.text = "WINNER!"
+        }
+        else {
+            self.resultLabel.text = "TRY AGAIN"
+        }
+        
+    
     }
     
 }
