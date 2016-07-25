@@ -16,6 +16,7 @@
 		5D4704BC1D3C6B32009B6ECC /* PickinFruitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4704BB1D3C6B32009B6ECC /* PickinFruitTests.swift */; };
 		5D4704D81D3E8B8D009B6ECC /* ViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4704D71D3E8B8D009B6ECC /* ViewControllerSpec.swift */; };
 		5D4704DA1D3EAB0E009B6ECC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4704D91D3EAB0E009B6ECC /* Constants.swift */; };
+		A41B96CA1D4687A80037F766 /* FruitPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41B96C91D4687A80037F766 /* FruitPicker.swift */; };
 		CE9CB191C8031D41C777DE58 /* Pods_PickinFruitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C61B3AACE2514EEBEE3F0F71 /* Pods_PickinFruitTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		5D4704D91D3EAB0E009B6ECC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		995B625662DFEF9D00ED632F /* Pods-PickinFruitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickinFruitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickinFruitTests/Pods-PickinFruitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D886C4E2ADA4009389B9E4F /* Pods_PickinFruit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickinFruit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41B96C91D4687A80037F766 /* FruitPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitPicker.swift; sourceTree = "<group>"; };
 		C61B3AACE2514EEBEE3F0F71 /* Pods_PickinFruitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickinFruitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8CE9CB18C42F0025CAF843E /* Pods-PickinFruitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickinFruitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickinFruitTests/Pods-PickinFruitTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 				5D4704A61D3C6B31009B6ECC /* AppDelegate.swift */,
 				5D4704A81D3C6B31009B6ECC /* ViewController.swift */,
 				5D4704AA1D3C6B31009B6ECC /* Main.storyboard */,
+				A41B96C91D4687A80037F766 /* FruitPicker.swift */,
 				5D8224291D41436B00C40FC1 /* Supporting Files */,
 			);
 			path = PickinFruit;
@@ -348,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41B96CA1D4687A80037F766 /* FruitPicker.swift in Sources */,
 				5D4704A91D3C6B31009B6ECC /* ViewController.swift in Sources */,
 				5D4704A71D3C6B31009B6ECC /* AppDelegate.swift in Sources */,
 				5D4704DA1D3EAB0E009B6ECC /* Constants.swift in Sources */,
